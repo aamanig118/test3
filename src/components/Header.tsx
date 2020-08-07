@@ -9,7 +9,7 @@ import MetricCard from '../Features/Card';
 const useStyles = makeStyles({
   grow: {
     flexGrow: 1,
-  },
+  },  
 });
 
 export default () => {
