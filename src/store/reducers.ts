@@ -1,5 +1,7 @@
-import { reducer as weatherReducer } from '../Features/Weather/reducer';
+import { reducer as metricrReducer } from '../Features/Metrics/reducer';
+import {reducer as subscriberReducer} from '../Features/Subscriber/reducer';
 
 export default {
-  weather: weatherReducer,
+  metrics: metricrReducer,
+  measurements: subscriberReducer
 };
